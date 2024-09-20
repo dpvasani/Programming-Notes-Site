@@ -68,4 +68,3 @@ If you have any questions or suggestions, feel free to reach out:
 ---
 
 Happy coding!
-```
