@@ -17,7 +17,7 @@ const Hero = () => {
               animate="visible"
               className="text-orange-600 font-semibold"
             >
-              100% Satisfaction Guarantee
+              More Coming Soon....
             </motion.p>
             <motion.h1
               variants={SlideRight(0.6)}

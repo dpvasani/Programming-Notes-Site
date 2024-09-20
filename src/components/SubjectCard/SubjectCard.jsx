@@ -1,63 +1,77 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaComputer, FaBook } from "react-icons/fa6";
+import { FaLaptopCode, FaCloud, FaRobot, FaShieldAlt, FaNetworkWired, FaDatabase, FaMobileAlt, FaBrain, FaCube, FaVrCardboard } from "react-icons/fa";
 
 const subjectList = [
   {
     id: 1,
-    name: "Engineering",
-    icon: <FaComputer />,
-    color: "#0063ff",
+    name: "Artificial Intelligence",
+    icon: <FaRobot />,
+    color: "#ff6f00",
     delay: 0.2,
   },
   {
     id: 2,
-    name: "English",
-    icon: <FaBook />,
-    color: "#00c986",
+    name: "Web Development",
+    icon: <FaLaptopCode />,
+    color: "#007bff",
     delay: 0.3,
   },
   {
     id: 3,
-    name: "Programming",
-    icon: <FaComputer />,
-    color: "#922aee",
+    name: "Mobile App Development",
+    icon: <FaMobileAlt />,
+    color: "#28a745",
     delay: 0.4,
   },
   {
     id: 4,
-    name: "Science",
-    icon: <FaBook />,
-    color: "#ea7516",
+    name: "Cloud Computing",
+    icon: <FaCloud />,
+    color: "#17a2b8",
     delay: 0.5,
   },
   {
     id: 5,
-    name: "History",
-    icon: <FaBook />,
-    color: "#075267",
+    name: "Cybersecurity",
+    icon: <FaShieldAlt />,
+    color: "#dc3545",
     delay: 0.6,
   },
   {
     id: 6,
-    name: "Psychology",
-    icon: <FaBook />,
-    color: "#986d1d",
+    name: "Blockchain",
+    icon: <FaCube />,
+    color: "#6f42c1",
     delay: 0.7,
   },
   {
     id: 7,
-    name: "Web design",
-    icon: <FaBook />,
-    color: "#b93838",
+    name: "Game Development",
+    icon: <FaVrCardboard />,
+    color: "#e83e8c",
     delay: 0.8,
   },
   {
     id: 8,
-    name: "See all",
-    icon: <FaBook />,
-    color: "#464646",
+    name: "Networking",
+    icon: <FaNetworkWired />,
+    color: "#ffc107",
     delay: 0.9,
+  },
+  {
+    id: 9,
+    name: "Data Science",
+    icon: <FaDatabase />,
+    color: "#6610f2",
+    delay: 1.0,
+  },
+  {
+    id: 10,
+    name: "See all",
+    icon: <FaBrain />,
+    color: "#343a40",
+    delay: 1.1,
   },
 ];
 
@@ -67,11 +81,11 @@ const SubjectCard = () => {
       <div className="container py-14 md:py-24">
         {/* header section */}
         <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-5">
-          <h1 className="uppercase font-semibold text-orange-500">
-            Our tutor subjects
+          <h1 className=" font-semibold text-orange-500">
+            Our Notes & Code Domain
           </h1>
           <p className="font-semibold text-3xl">
-            Find Online Tutor in Any Subject
+            Find Online Notes in Any Domain
           </p>
         </div>
         {/* cards section */}

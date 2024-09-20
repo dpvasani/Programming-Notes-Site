@@ -11,7 +11,7 @@ const NumberCounter = () => {
               start={0}
               end={8147}
                suffix="+"
-              duration={3}
+              duration={5}
               enableScrollSpy={true}
               scrollSpyOnce={true}
             />
@@ -21,22 +21,22 @@ const NumberCounter = () => {
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
-              end={20000}
+              end={32000}
               separator=","
               suffix="+"
-              duration={3}
+              duration={5}
               enableScrollSpy={true}
               scrollSpyOnce={true}
             />
           </p>
-          <p>Hours content</p>
+          <p>Post Impression</p>
         </div>
         <div className="flex flex-col items-center justify-center">
           <p className="text-3xl font-semibold">
             <CountUp
               end={10}
                suffix="+"
-              duration={3}
+              duration={5}
               enableScrollSpy={true}
               scrollSpyOnce={true}
             />
@@ -49,7 +49,7 @@ const NumberCounter = () => {
               end={10000}
               separator=","
               suffix="+"
-              duration={3}
+              duration={5}
               enableScrollSpy={true}
               scrollSpyOnce={true}
             />

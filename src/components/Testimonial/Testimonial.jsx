@@ -4,29 +4,29 @@ import Slider from "react-slick";
 const TestimonialsData = [
   {
     id: 1,
-    name: "John Doe",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Alice Johnson",
+    text: "This platform has transformed the way I approach learning. The resources are top-notch, and the community is incredibly supportive.",
     img: "https://picsum.photos/101/101",
     delay: 0.2,
   },
   {
     id: 2,
-    name: "Steve Smith",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Michael Brown",
+    text: "The notes and explanations provided have made complex topics much easier to understand. Highly recommended!",
     img: "https://picsum.photos/102/102",
     delay: 0.5,
   },
   {
     id: 3,
-    name: "Kristen",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    name: "Samantha Green",
+    text: "I've been able to stay ahead in my courses thanks to the great content and clear explanations here. It's been a game changer.",
     img: "https://picsum.photos/104/104",
     delay: 0.8,
   },
   {
-    id: 5,
-    name: "Ariana",
-    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio",
+    id: 4,
+    name: "David Wilson",
+    text: "A fantastic platform for both beginners and experts alike. The variety of resources ensures there's something for everyone.",
     img: "https://picsum.photos/103/103",
     delay: 1.1,
   },
@@ -75,8 +75,8 @@ const Testimonial = () => {
       <div className="container">
         {/* header section */}
         <div className="space-y-4 p-6 text-center max-w-[600px] mx-auto mb-6">
-          <h1 className="uppercase font-semibold text-orange-600">
-            OUR TESTIMONIALS
+          <h1 className="font-semibold text-orange-600">
+            Our Testimonials
           </h1>
           <p className="font-semibold text-3xl ">
             What Our Students Say About Us

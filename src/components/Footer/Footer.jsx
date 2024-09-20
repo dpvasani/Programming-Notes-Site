@@ -1,7 +1,9 @@
 import React from "react";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { HiLocationMarker } from "react-icons/hi";
+import { FaEnvelope, FaInstagram, FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import { MdComputer } from "react-icons/md";
+import { SiLeetcode } from "react-icons/si";
+import { BsLink } from "react-icons/bs"; 
+import { MdOutlineWeb } from "react-icons/md"; 
 
 const Footer = () => {
   return (
@@ -11,15 +13,14 @@ const Footer = () => {
           <div className="py-5 border-t-2 border-gray-300/10 text-black text-center">
             {/* Brand info section */}
             <div className="py-8 px-4 space-y-4 flex flex-col items-center">
-              <div className="text-2xl flex items-center gap-2 font-bold uppercase justify-center">
+              <div className="text-2xl flex items-center gap-2 font-bold justify-center">
                 <MdComputer className="text-secondary text-4xl" />
-                <p className="">E-Tutor</p>
+                <p className="">CryptoMinds</p>
               </div>
               <p className="max-w-lg text-center">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque
-                accusamus nulla labore cumque id ipsum molestias architecto
-                voluptatum saepe ab.
-              </p>
+  Welcome to our platform, where development meets collaboration. Connect with experts, share your code, and contribute to open source projects. Together, we build solutions for tomorrow.
+</p>
+
             </div>
 
             {/* Footer Links */}
@@ -33,34 +34,57 @@ const Footer = () => {
                 </li>
                 <li>
                   <a href="#" className="hover:text-secondary duration-200">
-                    About
+                    Notes
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-secondary duration-200">
-                    Services
+                    Interview Prep
                   </a>
                 </li>
                 <li>
                   <a href="#" className="hover:text-secondary duration-200">
-                    Login
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:text-secondary duration-200">
+                    Contact Us
                   </a>
                 </li>
               </ul>
 
               {/* Social media icons */}
               <div className="flex justify-center gap-5 mt-6">
-                <a href="#" className="hover:text-secondary duration-200">
-                  <HiLocationMarker className="text-3xl" />
+              <a href="https://github.com/dpvasani" target="_blank" className="hover:text-secondary duration-200">
+                  <FaGithub className="text-3xl" />
                 </a>
-                <a href="#" className="hover:text-secondary duration-200">
+                <a href="https://www.linkedin.com/in/dpvasani56/" className="hover:text-secondary duration-200">
+                  <FaLinkedin className="text-3xl" />
+                </a>
+              <a href="https://www.instagram.com/dp_vasani56" className="hover:text-secondary duration-200">
                   <FaInstagram className="text-3xl" />
                 </a>
-                <a href="#" className="hover:text-secondary duration-200">
-                  <FaFacebook className="text-3xl" />
+                <a href="mailto:cryptominds.developers@gmail.com" className="hover:text-secondary           duration-200">
+                    <FaEnvelope className="text-3xl" />
                 </a>
-                <a href="#" className="hover:text-secondary duration-200">
-                  <FaLinkedin className="text-3xl" />
+
+                
+                
+                <a href="https://x.com/vasanidarshan56/" target="_blank" className="hover:text-secondary duration-200">
+                  <FaTwitter className="text-3xl" />
+                </a>
+                <a href="https://leetcode.com/dpvasani_56" target="_blank" className="hover:text-secondary duration-200">
+                  <SiLeetcode className="text-3xl" />
+                </a>
+                <a href="https://linktr.ee/dpvasani56" target="_blank" className="hover:text-secondary duration-200">
+                  <BsLink className="text-3xl" />
+                </a>
+                <a href="https://topmate.io/dpvasani_56" target="_blank" className="hover:text-secondary duration-200">
+                  <MdOutlineWeb className="text-3xl" />
+                </a>
+                <a href="https://codolio.com/profile/dpvasani56" target="_blank" className="hover:text-secondary duration-200">
+                  <MdOutlineWeb className="text-3xl" />
                 </a>
               </div>
             </div>
@@ -70,7 +94,7 @@ const Footer = () => {
           <div className="mt-8">
             <div className="text-center py-6 border-t-2 border-gray-800/10">
               <span className="text-sm text-black/60">
-                @copyright 2024 Darshan Vasani
+                @ Copyright 2024 Darshan Vasani
               </span>
             </div>
           </div>

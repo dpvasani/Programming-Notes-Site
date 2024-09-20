@@ -12,22 +12,23 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 
 const BannerData = {
-  image: Img1,
-  tag: "CUSTOMIZE WITH YOUR SCHEDULE",
-  title: "Personalized Professional Online Tutor on Your Schedule",
-  subtitle:
-    "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility.Lorem ipsum is a placeholder text commonly used to demonstrate the visual form",
-  link: "#",
-};
-
-const BannerData2 = {
-  image: Img2,
-  tag: "CUSTOMIZE WITH YOUR SCHEDULE",
-  title: "Talented and Qualified Tutors to Serve You for Help",
-  subtitle:
-    "Our scheduling system allows you to select based on your free time. Lorem ipsum demo text for template. Keep track of your students class and tutoring schedules, and never miss your lectures. The best online class scheduling system with easy accessibility. Lorem ipsum is a placeholder text commonly used",
-  link: "#",
-};
+    image: Img1,
+    tag: "Contribute On Your Time",
+    title: "Empowering Developers through Open Source Contributions",
+    subtitle:
+      "Our platform allows you to contribute to open source projects based on your availability. Track your contributions, collaborate with other developers, and build your portfolio. The best system for managing open source contributions with easy accessibility. Whether you're a beginner or experienced developer, contribute to impactful projects.",
+    link: "#",
+  };
+  
+  const BannerData2 = {
+    image: Img2,
+    tag: "Flexible Collaboration",
+    title: "Join a Global Community of Open Source Developers",
+    subtitle:
+      "Collaborate with talented developers across the world. Our platform helps you work on impactful open source projects that fit your schedule. Gain hands-on experience, build your network, and contribute to projects that matter. The easiest way to get involved in the open source community with flexible collaboration options.",
+    link: "#",
+  };
+  
 
 const App = () => {
   return (
