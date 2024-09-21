@@ -11,7 +11,7 @@ import SubjectCard from "./components/SubjectCard/SubjectCard";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
 import ActiveSlider from "./components/Notes/ActiveSlider";
-import Notes from "./components/Constants/Notes.js"
+// import Notes from "./components/Constants/Notes.js"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 const BannerData = {
